@@ -1,0 +1,32 @@
+.app {
+  height: 100vh;
+}
+
+.app__body {
+  display: flex;
+  height: 100vh;
+}
+
+.appLoading {
+  background-color: #f2f2f2;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.appLoadingContents {
+  text-align: center;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.appLoadingContents > img {
+  object-fit: contain;
+  height: 200px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
